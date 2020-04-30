@@ -1,0 +1,159 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>User Landing Page</title>
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<!-- Bootstrap v4 -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+<!-- custom css -->
+<link href="css/userprofile.css" rel="stylesheet" type="text/css" media="screen">
+<!-- If you use your own css link it last -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Merienda+One&display=swap" rel="stylesheet">
+<style>
+  .btn:hover {
+  filter: brightness(45%);
+
+}
+    a:hover {
+        color: #FFC312;
+         text-decoration: none;
+    }
+</style>
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid padding-0">
+    <!--Navbar Starts Here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html"> <img src="images/logo3.png" alt="Logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li><a class="nav-item nav-link " href="#">Live Feed<span class="sr-only">(current)</span></a></li>
+        <li><a class="nav-item nav-link" href="#">Search Locations</a></li>
+          <li class="dropdown" id="dropdown2">
+            <a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Create <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="userprofile.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Create A Review</a></li>
+              <li><a href="userprofileMyReviews.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Create Location</a></li>
+              <li><a href="userprofileMyLocations.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px;">Create Amenity</a></li>
+             
+            </ul>
+          </li>
+          
+          <li class="dropdown" id="dropdown">
+            <a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="userprofile.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">User Details</a></li>
+              <li><a href="userprofileMyReviews.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">My Reviews</a></li>
+              <li><a href="userprofileMyLocations.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">My Locations</a></li>
+              <li><a href="userprofileFavoriteLocations.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Favorite Locations</a></li>
+              <li><a href="userprofileMyAmenities.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; ">My Amenities</a></li>
+            </ul>
+          </li>
+      </ul>
+    
+        
+    </div>
+    
+    </nav>
+    
+  </div> <!-- End Container -->
+
+    
+
+<div class= "container-fluid">
+    
+<div id="whole">
+<div class="col-md-12">
+<div class="row">
+<div style="margin-top: 10px;"> 
+<img src="images/MainTrucker.jpg" alt="Your Profile Pic" id="Pro-Pic" width="250" height="250">
+
+<h2 id="Profile">Buck Wad's Profile </h2>
+<h4 id="Drivers"> 2 Reviews</h4>
+<h4 id="Drivers2" style="margin-top: 7px;"> 1 Location</h4>
+<h4 id="Drivers3" style="margin-top: 7px;"> 1 Favorite Locations</h4>
+<h4 id="Drivers4" style="margin-top: 7px;"> 1 Amenity</h4>
+    
+</div>
+
+</div>
+</div>
+<div class="well" style="margin-left:47px; margin-top: 8px;">
+    <ul class="nav" id="nav">
+      <li class="active" style="padding-right: 6px;border-right: 1px solid #100; "><a href="#home" data-toggle="tab" style="font-family: 'Open Sans', sans-serif;">Profile</a></li>
+      <li style="margin-left: 5px;"><a href="#profile" data-toggle="tab" style="font-family: 'Open Sans', sans-serif;">Password</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane active in" id="home">
+        <form id="tab">
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">First Name:</label>
+   
+            <input type="text" id="First" value="jsmith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">Last Name:</label>
+    
+            <input type="text" id="Last" value="John" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+    
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">CB Handle:</label>
+    
+            <input type="text" id="CB" value="Smith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label id="Email" style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">Email:</label>
+    
+            <input type="text" id="Email2" value="jsmith@yourcompany.com" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">Phone Number:</label>
+    
+            <input type="text" id="Phone" value="Smith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+            
+          	<div style="margin-top: 5px;">
+        	    <button class="btn btn-primary" style="background-color: #FFC312; color: black;">Update</button>
+        	</div>
+        </form>
+      </div>
+      <div class="tab-pane fade" id="profile">
+    	<form id="tab2">
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">Old Password:</label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+            <br>
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">Confirm Old Password:</label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+              <br>
+            <label style="font-size: 24px; font-weight:500;  font-family: 'Roboto', sans-serif;">New Password:</label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+        	<div>
+        	    <button class="btn btn-primary" style="background-color: #FFC312; color: black;">Update</button>
+        	</div>
+    	</form>
+      </div>
+  </div>
+    </div>
+    </div>
+    </div>
+<!-- jQuery and Bootstrap links - do not delete! -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- end of do not delete -->
+</body>
+</html>

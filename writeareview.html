@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title> Create A Review </title>
+
+<!-- Bootstrap v4 -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+<!-- custom css -->
+<link href="css/writeareview2.css" rel="stylesheet" type="text/css" media="screen">
+ 
+    
+<style>
+    .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+    }  
+    body {
+        background-image: url(images/truck_image2.jpg);
+        background-repeat: no-repeat;
+  background-attachment: Fixed;
+  background-position: 0px 0px;
+    }
+    
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container #Kal {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+    .container #El {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+    .container #Jor {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+    .container #Sar {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover #Kal ~ .checkmark {
+  
+}
+
+/* When the checkbox is checked, add a blue background */
+.container #Kal:checked ~ .checkmark {
+  background-color: black;
+}
+    /* When the checkbox is checked, add a blue background */
+.container #El:checked ~ .checkmark {
+  background-color: black;
+}
+    /* When the checkbox is checked, add a blue background */
+.container #Jor:checked ~ .checkmark {
+  background-color: black;
+}
+    /* When the checkbox is checked, add a blue background */
+.container #Sar:checked ~ .checkmark {
+  background-color: black;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container #Kal:checked ~ .checkmark:after {
+  display: block;
+}
+/* Show the checkmark when checked */
+.container #El:checked ~ .checkmark:after {
+  display: block;
+}
+    /* Show the checkmark when checked */
+.container #Jor:checked ~ .checkmark:after {
+  display: block;
+}
+    /* Show the checkmark when checked */
+.container #Sar:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 8px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #FFC312;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+  ul.bread li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.bread li+li:before {
+  padding: 8px;
+  color: #FFC312;
+  content: "/\00a0";
+}
+#button-holder{
+
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:48px;
+    margin-top: 0px;
+    text-align:center;
+    width:50px;
+    
+    border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+  
+#button-holder img{
+    margin:12px;
+    width:27px; 
+    
+} 
+    input[type=text] {
+  
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    margin:0em 0 0 .0em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+</style>
+</head>
+
+<body>
+
+  <!-- INSERT HTML PAGE CONTENT HERE -->
+  <div class="container-fluid padding-0">
+    <!--Navbar Starts Here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html"> <img src="images/logo3.png" alt="Logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li><a class="nav-item nav-link " href="landing-page.html">Live Feed<span class="sr-only">(current)</span></a></li>
+        <li><a class="nav-item nav-link" href="SearchLocation.html">Search Locations</a></li>
+          <li class="dropdown" id="dropdown2">
+            <a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Create <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="writeareview.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Create A Review</a></li>
+              <li><a href="CreateLocation.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Create Location</a></li>
+              <li><a href="CreateAmenity.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px;">Create Amenity</a></li>
+             
+            </ul>
+          </li>
+          
+          <li class="dropdown" id="dropdown">
+            <a href="#" class="dropdown-toggle nav-item nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
+            <ul class="dropdown-menu" >
+              <li><a href="userprofile.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">User Details</a></li>
+              <li><a href="userprofileMyReviews.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">My Reviews</a></li>
+              <li><a href="userprofileMyLocations.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">My Locations</a></li>
+              <li><a href="userprofileFavoriteLocations.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; border-bottom:2px solid lightgrey;">Favorite Locations</a></li>
+              <li><a href="userprofileMyAmenities.html" class="nav-item nav-link" style="font-size:19px; margin-left: 0px; ">My Amenities</a></li>
+            </ul>
+          </li>
+      </ul>
+    
+      
+    </div>
+    
+    </nav>
+    
+  </div> <!-- End Container -->
+<div class="jumbotron jumbotron-fluid" id="Jumbo" style="background-color: black; padding-top: 40px; padding-bottom: 30px; margin-bottom: 5px;">
+  <div class="container">
+    <h1 class="display-4" id="Write" style="color: #ffc312;font-family: 'Roboto', sans-serif;" >Create a Review</h1>
+    
+  </div>
+</div>
+
+    
+   <div class="wrapper container">
+ <div class="card"  id="Everything"  style="border-color: black;">
+  <h5 class="card-header" style="background-color: black; color: #FFC312; font-family: 'Roboto', sans-serif; " id="sub">Create a Review: (Location Name)</h5>
+  <div class="card-body">
+    
+    <label for="fname" style="font-size: 20px; font-weight:500;">Search a Location to Review:</label> 
+<form action="/action_page.php" >
+      <input type="text" id="fname"  placeholder="Search Locations" name="search">
+     <div id='button-holder'>
+    <a href="ResultsPageActual.html"><img src='images/search.png' alt="Search Icon"></a>
+</div>
+
+      </form>
+    <br>
+    <img src="images/stars.png" alt="Stars" width="100" height="20" style="margin-top:50px;display: block;">
+      <br>
+   <textarea class="form-control" id="exampleFormControlTextarea3" rows="5" placeholder="Enter a Brief Description..."></textarea>
+   				
+	<br>			
+    <label  style="font-size: 20px; font-weight:500;">Amenity at the location:</label>
+    <label class="container">Overnight Parking
+ <input type="checkbox" id="Kal">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Food
+  <input type="checkbox" id="El">
+  <span class="checkmark" ></span>
+</label>
+
+<label class="container">Restrooms
+  <input type="checkbox" id="Jor">
+  <span class="checkmark"></span>
+</label>
+
+<label class="container">Gas Stations Nearby
+  <input type="checkbox" id="Sar">
+  <span class="checkmark"></span>
+</label>
+  <label for="fname2" style="font-size: 20px; font-weight:500;">Search Custom Amenity:</label> <form action="/action_page.php" >
+      <input type="text" id="fname2"  placeholder="Search Amenities" name="search">
+     <div id='button-holder'>
+    <a href="ResultsPageActual.html"><img src='images/search.png' alt="Search Icon"></a>
+</div>
+
+      </form>
+      <br>
+      
+    
+  </div>
+   
+     <a href="userprofileMyReviews.html" class="btn btn-primary" style="background-color: #FFC312; color: black; border-color: #FFC312; box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);  font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; ">Post New Review</a>
+       
+</div>
+    </div>
+<!-- jQuery and Bootstrap links - do not delete! -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- end of do not delete -->
+</body>
+</html>

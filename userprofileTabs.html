@@ -1,0 +1,334 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Profile Page</title>
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<!-- Bootstrap v4 -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+<!-- custom css -->
+<link href="css/userprofileFavoriteLocations.css" rel="stylesheet" type="text/css" media="screen">
+<!-- If you use your own css link it last -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Merienda+One&display=swap" rel="stylesheet">
+<style>
+ .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+</style>
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid padding-0">
+    <!--Navbar Starts Here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="home.html"> <img src="images/logo3.png" alt="Logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <li><a class="nav-item nav-link active" href="#">Live Feed<span class="sr-only">(current)</span></a></li>
+          <li><a class="nav-item nav-link active" href="#">Write a Review</a></li>
+          <li><a class="nav-item nav-link active" href="#">Location</a></li>
+      </div>
+    </div>
+    <div>
+        <a href="sign-in-page.html" class="btn btn-warning rounded-0" style="box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);"><span style="font-size: 23px; font-weight: 500;">Profile</span></a>
+    </div>
+    </nav>
+    
+  </div> <!-- End Container -->
+  
+<ul class="nav" id="whole2" style="background-color: black;" >
+      <li class="active"><a href="#home" id="nav2" data-toggle="tab" style="padding-right: 6px;border-right: 1px solid white;color: #FFC312">Profile</a></li>&nbsp;
+      <li><a href="#profile" data-toggle="tab" id="nav3" style="padding-left: 3px; padding-right: 6px;border-right: 1px solid white; color: #FFC312">Change Password</a></li>
+      <li><a href="#MyReviews" data-toggle="tab" id="nav4" style="padding-left: 6px;padding-right: 6px;border-right: 1px solid white; color: #FFC312">My Reviews</a></li>
+      <li><a href="#MyLocation" data-toggle="tab"  id="nav5" style="padding-left: 6px;padding-right: 6px;border-right: 1px solid white; color: #FFC312">My Locations</a></li>
+      <li><a href="#FavoriteLocations" data-toggle="tab"  id="nav6"style="padding-left: 6px;padding-right: 6px; border-right: 1px solid white;color: #FFC312">Favorite Locations</a></li>
+      <li><a href="#FavoriteLocations" data-toggle="tab" id="nav7" style="padding-left: 6px;padding-right: 6px; color: #FFC312">My Amenities</a></li>
+    </ul>
+    
+     <div id="myTabContent" class="tab-content">
+    <div class="tab-pane active in" id="home">
+    <div class="col-md-12">
+<div class="row">
+<div id="whole"> 
+<img src="images/Person.png" id="Pro-Pic" width="250px" height="250px">
+
+<h2 id="Profile"> Favorited Locations</h2>
+<h4 id="Drivers"> Drivers</h4>
+<h4 id="Reviews"> 2 Favorites</h4>
+</div>
+
+</div>
+</div>
+      <div class="tab-pane active in" id="home">
+        <form id="tab">
+            <label><h4>First Name:</h4></label>
+   
+            <input type="text" id="First" value="jsmith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label><h4>Last Name:</h4></label>
+    
+            <input type="text" id="Last"value="John" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+    
+            <label><h4>CB Handle:</h4></label>
+    
+            <input type="text" id="CB" value="Smith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label id="Email"><h4>Email:</h4></label>
+    
+            <input type="text" id="Email2" value="jsmith@yourcompany.com" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+    <br>
+            <label><h4>Phone Number:</h4></label>
+    
+            <input type="text" id="Phone" value="Smith" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+            
+          	<div>
+        	    <button class="btn btn-primary">Update</button>
+        	</div>
+        </form>
+      </div>
+      
+  </div>
+         <div class="tab-pane fade" id="profile">
+    	<form id="tab2">
+            <label><h4>Old Password:</h4></label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+            <br>
+            <label><h4>Confirm Old Password:</h4></label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+              <br>
+            <label><h4>New Password:</h4></label>
+        	<input type="password" class="input-xlarge" style=" border: 2px solid #ccc;
+  border-radius: 4px;">
+        	<div>
+        	    <button class="btn btn-primary">Update</button>
+        	</div>
+    	</form>
+      </div>
+<div class="tab-pane fade" id="MyReviews">
+<form id="tab3">
+    <div class="col-md-12">
+<div class="row">
+<div id="whole"> 
+<img src="images/MainTrucker.jpg" id="Pro-Pic" width="250px" height="250px">
+
+<h2 id="Profile"> My Reviews</h2>
+<h4 id="Drivers"> CB Handle: Buck Wad</h4>
+<h4 id="Reviews"> 2 Reviews</h4>
+</div>
+
+</div>
+</div>
+ <div class="wrapper container">
+  <div class="row">
+    <div class="col-md-12">
+     <div class="card" id="Review">
+  <div class="card-body">
+    <h5 class="card-title" style="color: black;"><img src="images/trucker.jpg" id="picture" width="250" height="260" style="padding-bottom: 0px;">FuzzyRabbit302 &nbsp;<img src="images/star-rating.png" width="100" height="30"  style="padding-bottom: 8px; margin-left: 0px;"></h5>
+    <p class="card-text" style="color: black;" id="Info">This location was amazing and this site was easy to use!</p>
+    <p style="color:black; margin-top:0px;" id="AmenityReview">  Overnight Parking  &nbsp;<img src="images/parking.png" height="30" width="30" style="padding-bottom:0px;"></p>
+    <button class="btn btn-primary" type="submit" id="Edit">Edit</button>
+  </div>
+</div>  
+      </div>  
+  <div class="col-md-12">
+     <div class="card" id="Review">
+  <div class="card-body">
+    <h5 class="card-title" style="color: black;"><img src="images/trucker.jpg" id="picture" width="250" height="260" style="padding-bottom: 0px;">FuzzyRabbit302 &nbsp;<img src="images/star-rating.png" width="100" height="30"  style="padding-bottom: 8px; margin-left: 0px;"></h5>
+    <p class="card-text" style="color: black;" id="Info">This location was amazing and this site was easy to use!</p>
+    <p style="color:black; margin-top:0px;" id="AmenityReview">  Overnight Parking  &nbsp;<img src="images/parking.png" height="30" width="30" style="padding-bottom:0px;"></p>
+    <button class="btn btn-primary" type="submit" id="Edit">Edit</button>
+  </div>
+</div>  
+      </div>  
+      
+      
+      
+      
+      
+    </div>
+</div>
+    </form>
+      
+  </div>
+<div class="tab-pane fade" id="MyLocation">
+<form id="tab4">
+<div class= "container-fluid">
+<div class="col-md-12">
+<div class="row">
+<div id="whole"> 
+<img src="images/MainTrucker.jpg" id="Pro-Pic" width="250px" height="250px">
+
+<h2 id="Profile"> My Locations</h2>
+<h4 id="Drivers">CB Handle: <br> Buck Wad</h4>
+<h4 id="Reviews"> 2 Reviews</h4>
+</div>
+
+</div>
+</div>
+   <div class="container-fluid padding-0">
+  <div class="row">
+  <div class="col col-md-6">
+
+<div id="Resolution">
+    <div class="card blue-grey darken-1" id="Favorite">
+        <div class="card-content white-text">
+          <img src="images/OliveGardenExterior.jpg" width="300" height="300" id="Picture">
+          <span class="card-title" style="display:inline"><h2 id="Title" style="color:black;">Olive Garden<img src="images/Favorite.png"  width="30" height="30" style="display:inline;"></h2>
+            <p style="margin-bottom: 0px; font-size:20px;" id="Number"><img src="images/star-rating.png" width="140" height="30" id="star"> 13 Reviews</p>
+            <p id="Address"> 3880 Wertz Drive</p>
+        </span>
+         
+          <p style="display:block;" id="Creation">Location created by <a href="" style="font-size: 16px;">Steven Donovan</a> on December 29, 2019 </p>
+         <p id="Description"> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder  </p>
+         
+        </div>
+        
+      </div>
+</div>
+</div>
+  
+ <div class="col-6 col-md-6">
+    <div id="Second-half">
+     
+     
+<h5 style="border-bottom: 1px solid #100; width: 20rem; padding-bottom: 10px;">You Might Also Consider</h5>
+<div class="card blue-grey darken-1" id="location" style="width: 20rem">
+        <div class="card-content white-text">
+          <img src="images/texas.png" width="123" height="123" style="float: left; overflow: auto; padding: 10px;">
+          <span class="card-title" id="Title2" style="display:inline-block;">
+          <h5 style="color:black; margin-top: 6px;">Location Sample</h5>
+          <img src="images/star-rating.png" width="80" height="20">
+        </span>
+          <p style="display:block;font-size: 12px;">"Sparky said that"<a href="" style="color:blue; font-size: 14px;"> &nbsp; read more</a></p>
+        </div>
+        
+      </div>
+     
+    <br> 
+     
+<div class="card blue-grey darken-1" id="location" style="width: 20rem">
+        <div class="card-content white-text">
+          <img src="images/mcdonalds.jpg" width="123" height="123" style="float: left; overflow: auto; padding: 10px;">
+          <span class="card-title" id="Title2" style="display:inline-block;">
+          <h5 style="color:black; margin-top: 6px;">Location Sample</h5>
+          <img src="images/star-rating.png" width="80" height="20">
+        </span>
+          <p style="display:block;font-size: 12px;">"Sparky said that"<a href="" style="color:blue; font-size: 14px;"> &nbsp; read more</a></p>
+        </div>
+        
+      </div>
+</div>
+</div>
+</div>
+    
+  </div> <!-- End Container -->  
+    </div>
+    </form>
+      
+  </div>
+<div class="tab-pane fade" id="FavoriteLocations" name="FavoriteLocations">
+<form id="tab5" name="tab5">
+<div class= "container-fluid">
+<div class="col-md-12">
+<div class="row">
+<div id="whole"> 
+<img src="images/MainTrucker.jpg" id="Pro-Pic" width="250px" height="250px">
+
+<h2 id="Profile"> Favorite Locations</h2>
+<h4 id="Drivers"> CB Handle: <br> Buck Wad</h4>
+<h4 id="Reviews"> 2 Reviews</h4>
+</div>
+
+</div>
+</div>
+   <div class="container-fluid padding-0">
+  <div class="row">
+  <div class="col col-md-6">
+
+<div id="Resolution">
+    <div class="card blue-grey darken-1" id="Favorite">
+        <div class="card-content white-text">
+          <img src="images/OliveGardenExterior.jpg" width="300" height="300" id="Picture">
+          <span class="card-title" style="display:inline"><h2 id="Title" style="color:black;">Olive Garden<img src="images/Favorite.png"  width="30" height="30" style="display:inline;"></h2>
+            <p style="margin-bottom: 0px; font-size:20px;" id="Number"><img src="images/star-rating.png" width="140" height="30" id="star"> 13 Reviews</p>
+            <p id="Address"> 3880 Wertz Drive</p>
+        </span>
+         
+          <p style="display:block;" id="Creation">Location created by <a href="" style="font-size: 16px;">Steven Donovan</a> on December 29, 2019 </p>
+         <p id="Description"> Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder  </p>
+         
+        </div>
+        
+      </div>
+</div>
+</div>
+  
+ <div class="col-6 col-md-6">
+    <div id="Second-half">
+     
+     
+<h5 style="border-bottom: 1px solid #100; width: 20rem; padding-bottom: 10px;">You Might Also Consider</h5>
+<div class="card blue-grey darken-1" id="location" style="width: 20rem">
+        <div class="card-content white-text">
+          <img src="images/texas.png" width="123" height="123" style="float: left; overflow: auto; padding: 10px;">
+          <span class="card-title" id="Title2" style="display:inline-block;">
+          <h5 style="color:black; margin-top: 6px;">Location Sample</h5>
+          <img src="images/star-rating.png" width="80" height="20">
+        </span>
+          <p style="display:block;font-size: 12px;">"Sparky said that"<a href="" style="color:blue; font-size: 14px;"> &nbsp; read more</a></p>
+        </div>
+        
+      </div>
+     
+    <br> 
+     
+<div class="card blue-grey darken-1" id="location" style="width: 20rem">
+        <div class="card-content white-text">
+          <img src="images/mcdonalds.jpg" width="123" height="123" style="float: left; overflow: auto; padding: 10px;">
+          <span class="card-title" id="Title2" style="display:inline-block;">
+          <h5 style="color:black; margin-top: 6px;">Location Sample</h5>
+          <img src="images/star-rating.png" width="80" height="20">
+        </span>
+          <p style="display:block;font-size: 12px;">"Sparky said that"<a href="" style="color:blue; font-size: 14px;"> &nbsp; read more</a></p>
+        </div>
+        
+      </div>
+</div>
+</div>
+</div>
+    
+  </div> <!-- End Container -->  
+    </div>
+    </form>
+      
+  </div>
+    </div>
+   
+    
+<!-- jQuery and Bootstrap links - do not delete! -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- end of do not delete -->
+</body>
+</html>
