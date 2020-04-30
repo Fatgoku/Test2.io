@@ -1,0 +1,1884 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+li {
+    color: #151515;
+}
+.nav-item.nav-link.active {
+    color: #055384;
+}
+a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+}
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+     font-family: 'Open Sans', sans-serif;
+}
+
+.card-img-overlay: hover {
+    opacity: 0.7;
+}
+small {
+    color: gainsboro;
+}
+.padding-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.margin-row {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+width: 100%;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.navbar-nav>li{
+border-right: 1px solid #100;
+border-color: lightgrey;
+}
+.navbar-nav>li:last-child{
+   border: none;
+}
+html,body 
+    {
+        width:100%;
+        height:100%;
+        margin:0px;
+        padding:0px;
+        overflow-x:hidden;
+    }
+     @media (min-width: 200px) { 
+   
+    #whole {
+        margin-left: 4%;
+    }
+         #whole2 {
+     
+        margin-bottom: 15px;
+    }
+      #Pro-Pic {
+          margin-left: 5%;
+        
+        }  
+         #Email {
+            display: block;
+            margin-bottom: 15px;
+        }
+    #First {
+            margin-bottom:15px;
+        }
+        #Last {
+             margin-bottom:15px;
+        }
+        #CB {
+  margin-bottom:15px;
+        }
+        #Email2 {
+             margin-bottom:15px;
+        }
+        #Phone {
+             margin-bottom:15px;
+        }
+    #Profile {
+            display:inline-block; 
+            margin-left: 50px; 
+            margin-top: 25px; 
+            color: black;
+        }
+        #Drivers {
+            display:block; 
+            margin-top: 0px;
+            margin-left: 50px; 
+        }
+        #Reviews {
+            display:block; 
+            margin-top: 10px;
+            margin-left: 50px; 
+            margin-bottom: 30px;
+        }
+    } 
+ @media (min-width: 320px) {
+     #Profile {
+            margin-left: 13px;
+        }
+        #Drivers {
+             margin-left: 13px;
+        }
+        #Reviews {
+             margin-left: 13px;
+        }
+      #whole2 {
+        padding-left: 0%;
+    } 
+    #nav2 {
+        margin-left: 6px;
+        font-size: 23px;
+    }
+    #nav3 {
+        font-size: 19px;
+    }
+    #nav4 {
+        font-size: 19px;
+    }
+    #nav5 {
+        font-size: 19px;
+    }
+    #nav6 {
+        font-size: 19px;
+    }
+    #nav7 {
+        font-size: 19px;
+    }     
+     #Second-half {
+            visibility:hidden;
+             margin-left:0;
+         }
+         
+         #Resolution {
+             margin-left: 0px;
+         }
+         #Favorite {
+             width: 18rem;
+             margin-left: 2px;
+         }
+        
+        #Picture {
+           margin-left: 8px;
+            width:270px; 
+            height:270px;
+        
+        }
+      #Title {
+     margin-top: 10px;
+    margin-left: 12%;   
+    }
+        #Number {
+            margin-left: 12%;
+        }
+        
+        #Creation {
+            margin-left: 5%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 12%;
+        }
+        #Description {
+            margin-left: 5%;
+        }
+     #star {
+         margin-left: 12%;
+     }
+      #Favorite2 {
+             width: 18rem;
+             margin-left: 2px;
+         }
+        
+        #Picture2 {
+           margin-left: 8px;
+            width:270px; 
+            height:270px;
+        
+        }
+      #Olive {
+     margin-top: 10px;
+    margin-left: 12%;   
+    }
+        #Number2 {
+            margin-left: 12%;
+        }
+        
+        #Creation2 {
+            margin-left: 5%;
+        }
+        #Address2 {
+            margin-top: 5px;
+            margin-left: 12%;
+        }
+        #Description2 {
+            margin-left: 5%;
+        }
+     #star2 {
+         margin-left: 12%;
+     }
+     
+    }
+@media (min-width: 360px) {
+    #Picture {
+        
+            width:300px; 
+            height:300px;
+        
+        }
+     #Picture2 {
+        
+            width:300px; 
+            height:300px;
+        
+        }
+    #Yellow {
+            margin-left: 7%;
+        }
+        #Yellow2 {
+            margin-left: 7%;
+        }
+        #Buck {
+           margin-left: 7%;
+        }
+        #Buck2 {
+            margin-left: 7%;
+        }
+        #Local {
+           margin-left: 7%;
+        }
+        #Local2 {
+            margin-left: 7%;
+        }
+        #Add {
+           margin-left: 7%;
+        }
+         #Add2 {
+            margin-left: 7%;
+        }
+        #Info {
+        margin-left: 7%;
+    }
+        #Info2 {
+        margin-left: 7%;
+    }
+    #Edit {
+        margin-left: 7%;
+    }
+        #Edit2 {
+        margin-left: 7%;
+    }
+    #AmenityReview {
+       margin-left: 7%;
+    }
+        #AmenityReview2 {
+       margin-left: 7%;
+    }
+     #whole2 {
+        padding-left: 0%;
+    } 
+    #nav2 {
+        margin-left: 6px;
+        font-size: 23px;
+    }
+    #nav3 {
+        font-size: 23px;
+    }
+    #nav4 {
+        font-size: 23px;
+    }
+    #nav5 {
+        font-size: 23px;
+    }
+    #nav6 {
+        font-size: 23px;
+    }
+    #nav7 {
+        font-size: 23px;
+    }   
+    #Second-half {
+            visibility:hidden;
+             margin-left: 0;
+         }
+         
+         #Resolution {
+             margin-left: 0px;
+         }
+         #Favorite {
+             width: 20rem;
+             margin-left: 3px;
+         }
+        #Favorite2 {
+             width: 20rem;
+             margin-left: 3px;
+         }
+        #Picture {
+           margin-left: 9px;
+        }
+    #Picture2 {
+           margin-left: 9px;
+        }
+    #picture {
+            float: none;
+            margin-left: 8%;
+        }
+    #picture2 {
+            float: none;
+            margin-left: 8%;
+        }
+    #Title {
+     margin-top: 10px;
+    margin-left: 17%;   
+    }
+        #Number {
+            margin-left: 18%;
+        }
+        
+        #Creation {
+            margin-left: 5%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 18%;
+        }
+        #Description {
+            margin-left: 5%;
+        }
+     #star {
+         margin-left: 16%;
+     }
+    #Olive {
+     margin-top: 10px;
+    margin-left: 17%;   
+    }
+        #Number2 {
+            margin-left: 18%;
+        }
+        
+        #Creation2 {
+            margin-left: 5%;
+        }
+        #Address2 {
+            margin-top: 5px;
+            margin-left: 18%;
+        }
+        #Description2 {
+            margin-left: 5%;
+        }
+     #star2 {
+         margin-left: 16%;
+     }
+    }
+@media (min-width: 375px) {
+    #Yellow {
+            margin-left: 7%;
+        }
+        #Yellow2 {
+            margin-left: 7%;
+        }
+        #Buck {
+           margin-left: 7%;
+        }
+        #Buck2 {
+            margin-left: 7%;
+        }
+        #Local {
+           margin-left: 7%;
+        }
+        #Local2 {
+            margin-left: 7%;
+        }
+        #Add {
+           margin-left: 7%;
+        }
+         #Add2 {
+            margin-left: 7%;
+        }
+        #Info {
+        margin-left: 7%;
+    }
+        #Info2 {
+        margin-left: 7%;
+    }
+    #Edit {
+        margin-left: 7%;
+    }
+        #Edit2 {
+        margin-left: 7%;
+    }
+    #AmenityReview {
+       margin-left: 7%;
+    }
+        #AmenityReview2 {
+       margin-left: 7%;
+    }
+     #Profile {
+            margin-left: 24px;
+        }
+        #Drivers {
+             margin-left: 24px;
+        }
+        #Reviews {
+             margin-left: 24px;
+        }
+    #Pro-Pic {
+          margin-left: 8%;
+        } 
+
+}
+    @media (min-width: 411px) { 
+        #Favorite {
+             width: 20rem;
+             margin-left: 36px;
+         }
+        #Yellow {
+            margin-left: 13%;
+        }
+        #Yellow2 {
+            margin-left: 13%;
+        }
+        #Buck {
+            margin-left: 13%;
+        }
+        #Buck2 {
+            margin-left: 13%;
+        }
+        #Local {
+            margin-left: 13%;
+        }
+        #Local2 {
+            margin-left: 13%;
+        }
+        #Add {
+            margin-left: 13%;
+        }
+         #Add2 {
+            margin-left: 13%;
+        }
+        #Info {
+        margin-left: 13%;
+    }
+        #Info2 {
+        margin-left: 13%;
+    }
+    #Edit {
+        margin-left: 13%;
+    }
+        #Edit2 {
+        margin-left: 13%;
+    }
+    #AmenityReview {
+        margin-left: 13%;
+    }
+        #AmenityReview2 {
+        margin-left: 13%;
+    }
+    #whole {
+        margin-left: 13%;
+    }
+    #whole2 {
+     
+       
+    }
+        a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+    #picture {
+            float: none;
+            margin-left: 14%;
+        } 
+        #picture2 {
+            float: none;
+            margin-left: 14%;
+        } 
+         
+          
+    } 
+@media (min-width: 430px) {
+    #Yellow {
+            margin-left: 0%;
+        }
+        #Yellow2 {
+            margin-left: 0%;
+        }
+        #Buck {
+            margin-left: 0%;
+        }
+        #Buck2 {
+            margin-left: 0%;
+        }
+        #Local {
+            margin-left: 0%;
+        }
+        #Local2 {
+            margin-left: 0%;
+        }
+        #Add {
+            margin-left: 0%;
+        }
+         #Add2 {
+            margin-left: 0%;
+        }
+        #Info {
+        margin-left: 0%;
+    }
+        #Info2 {
+        margin-left: 0%;
+    }
+    #Edit {
+        margin-left: 0%;
+    }
+        #Edit2 {
+        margin-left: 0%;
+    }
+    #AmenityReview {
+        margin-left: 0%;
+    }
+        #AmenityReview2 {
+        margin-left: 0%;
+    }
+  #Second-half {
+            visibility:hidden;
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 8%;
+         }
+         #Favorite {
+             width: 22rem;
+         }
+         #Favorite2 {
+             width: 22rem;
+         }
+        #Picture {
+           margin-left: 50px;
+        }
+    #Review {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review2 {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #picture {
+            float: right;
+    }
+    #picture2 {
+            float: right;
+    }
+    #Picture {
+            margin-left: 25px;
+        } 
+     margin-left: 0;
+        }
+  #Title {
+     margin-top: 10px;
+    margin-left: 20%;   
+    }
+        #Number {
+            margin-left: 21%;
+        }
+        
+        #Creation {
+            margin-left: 5%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 21%;
+        }
+        #Description {
+            margin-left: 5%;
+        }
+
+#star {
+    margin-left: 21%;
+}
+#Picture2 {
+            margin-left: 25px;
+        } 
+     margin-left: 0;
+        }
+  #Olive {
+     margin-top: 10px;
+    margin-left: 20%;   
+    }
+        #Number2 {
+            margin-left: 21%;
+        }
+        
+        #Creation2 {
+            margin-left: 5%;
+        }
+        #Address2 {
+            margin-top: 5px;
+            margin-left: 21%;
+        }
+        #Description2 {
+            margin-left: 5%;
+        }
+
+#star2 {
+    margin-left: 21%;
+}
+#Profile {
+            margin-left: 9%;
+        }
+        #Drivers {
+             margin-left: 9%;
+        }
+        #Reviews {
+             margin-left: 9%;
+        }
+    }
+@media (min-width: 540px) {
+    
+    #whole {
+        margin-left: 32%;
+    }
+      #whole2 {
+        padding-left: 0%;
+    } 
+    #nav2 {
+        font-size: 28px;
+    }
+    #nav3 {
+        font-size: 29px;
+    }
+    #nav4 {
+        font-size: 23px;
+    }
+    #nav5 {
+        font-size: 23px;
+    }
+    #nav6 {
+        font-size: 23px;
+    }
+    #nav7 {
+        font-size: 23px;
+    } 
+    #Second-half {
+            visibility:hidden;
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 13%;
+         }
+         #Favorite {
+             width: 27rem;
+         }
+        
+        #Picture {
+           margin-left: 50px;
+        }
+    
+    #Favorite2 {
+             width: 27rem;
+         }
+        
+        #Picture2 {
+           margin-left: 50px;
+        }
+    
+    #Review {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Title {
+     margin-top: 10px;
+    margin-left: 105px;   
+    }
+        #Number {
+            margin-left: 105px;
+        }
+        
+        #Creation {
+            margin-left: 0%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 105px;
+        }
+        #Description {
+            margin-left: 0%;
+        }
+
+#star {
+    margin-left: 105px;
+}
+    }
+@media (min-width: 600px) {
+    #Profile {
+            margin-left: 9%;
+        }
+        #Drivers {
+             margin-left: 9%;
+        }
+        #Reviews {
+             margin-left: 9%;
+        }
+    #whole {
+        margin-left: 25%;
+    }
+      #whole2 {
+        padding-left: 0%;
+    } 
+    #nav2 {
+        font-size: 28px;
+    }
+    #nav3 {
+        font-size: 29px;
+    }
+    #nav4 {
+        font-size: 23px;
+    }
+    #nav5 {
+        font-size: 23px;
+    }
+    #nav6 {
+        font-size: 23px;
+    }
+    #nav7 {
+        font-size: 23px;
+    } 
+    #Second-half {
+            visibility:hidden;
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 10%;
+         }
+         #Favorite {
+             width: 25rem;
+         }
+        
+        #Picture {
+           margin-left: 50px;
+        }
+    #Favorite2 {
+             width: 25rem;
+         }
+        
+        #Picture2 {
+           margin-left: 50px;
+        }
+    
+    #Review {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Title {
+     margin-top: 10px;
+    margin-left: 105px;   
+    }
+        #Number {
+            margin-left: 105px;
+        }
+        
+        #Creation {
+            margin-left: 0%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 105px;
+        }
+        #Description {
+            margin-left: 0%;
+        }
+
+#star {
+    margin-left: 105px;
+}
+    }
+ @media (min-width: 640px) { 
+     #Resolution {
+             margin-left: 11%;
+         }
+     #Favorite {
+             width: 20rem;
+         }
+    #whole {
+        margin-left: 28%;
+    }
+      #whole2 {
+        padding-left: 4%;
+    } 
+    #nav2 {
+        font-size: 14px;
+    }
+    #nav3 {
+        font-size: 14px;
+    }
+    #nav4 {
+        font-size: 14px;
+    }
+    #nav5 {
+        font-size: 14px;
+    }
+    #nav6 {
+        font-size: 14px;
+    }
+    #nav7 {
+        font-size: 14px;
+    }
+    #Info {
+        
+    }
+    #Edit {
+        
+    }
+    #AmenityReview {
+        
+    }
+        a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+   #Second-half {
+            visibility:hidden;
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 20%;
+         }
+         #Favorite {
+             width: 20rem;
+         }
+        #Picture {
+            float: left; overflow: auto;
+            margin-left: 0px;
+        } 
+     #Title {
+     margin-top: 10px;
+    margin-left: 21%;   
+    }
+        #Number {
+            margin-left: 21%;
+        }
+        
+        #Creation {
+            margin-left: 0%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 21%;
+        }
+        #Description {
+            margin-left: 0%;
+        }
+
+#star {
+    margin-left: 21%;
+}
+     #Favorite2 {
+             width: 3rem;
+         }
+        #Picture2 {
+            float: left; overflow: auto;
+            margin-left: 0px;
+        } 
+     #Olive {
+     margin-top: 10px;
+    margin-left: 0%;   
+    }
+        #Number2 {
+            margin-left: 0%;
+        }
+        
+        #Creation2 {
+            margin-left: 0%;
+        }
+        #Address2 {
+            margin-top: 5px;
+            margin-left: 0%;
+        }
+        #Description2 {
+            margin-left: 0%;
+        }
+
+#star2 {
+    margin-left: 21%;
+}
+      #Title2 {
+      margin-left: 136px;
+      
+             }
+     #Title3 {
+      margin-left: 136px;
+      
+             }
+         #Stars {
+             margin-left: 135px;
+         }
+          #person {
+            margin-left: 100px;
+        }
+         #SubTitle {
+             margin-left: 35px;
+         }
+         #Text {
+             margin-left: 26px; 
+
+     }
+     #Review {
+            width: 33rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 33rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+ @media (min-width: 670px) { 
+     #Resolution {
+             margin-left: 22%;
+         }
+     #Favorite {
+             width: 20rem;
+         }
+     #Favorite2 {
+             width: 20rem;
+         }
+      #whole2 {
+        padding-left: 1%;
+    } 
+    #nav2 {
+        font-size: 18px;
+    }
+    #nav3 {
+        font-size: 18px;
+    }
+    #nav4 {
+        font-size: 18px;
+    }
+    #nav5 {
+        font-size: 18px;
+    }
+    #nav6 {
+        font-size: 18px;
+    }
+    #nav7 {
+        font-size: 18px;
+    }
+     #Picture {
+            float: left; overflow: auto;
+            margin-left: 3%;
+        }
+     #Title {
+     margin-top: 10px;
+           margin-left: 21%; 
+    }
+        #Address {
+            margin-top: 0px;
+            margin-left: 21%;
+        }
+        #Number {
+            margin-left: 21%;
+        }
+        #Creation {
+             margin-left: 3%;
+        }
+        #Description {
+            margin-left: 3%;
+        }
+     #star {
+          margin-left: 21%;
+     }
+     #Picture2 {
+            float: left; overflow: auto;
+            margin-left: 3%;
+        }
+     #Olive {
+     margin-top: 10px;
+           margin-left: 12%; 
+    }
+        #Address2 {
+            margin-top: 0px;
+            margin-left: 12%;
+        }
+        #Number2 {
+            margin-left: 12%;
+        }
+        #Creation2 {
+             margin-left: 3%;
+        }
+        #Description2 {
+            margin-left: 3%;
+        }
+     #star2 {
+          margin-left: 12%;
+     }
+}
+    
+    @media (min-width: 768px) { 
+        #Title {
+     margin-top: 10px;
+           margin-left: 0; 
+    }
+        #Olive {
+     margin-top: 10px;
+           margin-left: 0; 
+    }
+        #Picture {
+            float: left; overflow: auto;
+            margin-left: 0px;
+        }
+        #Picture2 {
+            float: left; overflow: auto;
+            margin-left: 0px;
+        }
+        #Favorite {
+             width: 38rem;
+         }
+        #Profile {
+            margin-left: 0px;
+        }
+        #Drivers {
+             margin-left: 0px;
+        }
+        #Reviews {
+             margin-left: 0px;
+        }
+        #whole2 {
+        padding-left: 4%;
+    } 
+    #nav2 {
+        font-size: 18px;
+    }
+    #nav3 {
+        font-size: 18px;
+    }
+    #nav4 {
+        font-size: 18px;
+    }
+    #nav5 {
+        font-size: 18px;
+    }
+    #nav6 {
+        font-size: 18px;
+    }
+    #nav7 {
+        font-size: 18px;
+    }
+        #First {
+            margin-bottom:0px;
+        }
+        #Last {
+             margin-bottom:0px;
+        }
+        #CB {
+             margin-bottom:0px;
+        }
+        #Email2 {
+             margin-bottom:0px;
+        }
+        #Phone {
+             margin-bottom:0px;
+        }
+        #Review {
+            width: 40rem; 
+            margin-left: 3%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 3%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+    #Pro-Pic {
+            float: left; 
+            overflow: auto;
+              margin-left: 0%;
+        }
+        #Email {
+            display: inline-block;
+            margin-bottom: 0px;
+        }
+    #whole {
+        margin-left: 21%;
+    }
+       
+        #Profile {
+            display:inline-block; 
+            float: right; 
+            margin-left: 0px; 
+            margin-top: 25px; 
+            color: black;
+        }
+        #Drivers {
+            display:block; 
+            margin-top: 25px;
+            margin-left: 0px; 
+        }
+        #Reviews {
+            display:block; 
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+      
+#Second-half {
+            visibility:hidden;
+             margin-left: 0;
+         }
+         
+         #Resolution {
+             margin-left: 1%;
+         }
+         #Favorite {
+             width: 41rem;
+         }
+        #Favorite2 {
+             width: 41rem;
+         }
+          #Title2 {
+      margin-left: 236px;
+      
+             }
+        #Title3 {
+      margin-left: 236px;
+      
+             }
+         #Stars {
+             margin-left: 235px;
+         }
+          #person {
+            margin-left: 200px;
+        }
+         #SubTitle {
+             margin-left: 126px;
+         }
+         #Text {
+             margin-left: 50px; 
+         }
+        
+        #Number {
+            margin-left: 0%;
+        }
+        
+        #Creation {
+            margin-left: 0%;
+        }
+        #Address {
+            margin-top: 5px;
+            margin-left: 0%;
+        }
+        #Description {
+            margin-left: 0%;
+        }
+    }
+  @media (min-width: 770px) {
+    #Second-half {
+            visibility:collapse;
+             margin-left: 0%;
+         }
+         
+         #Resolution {
+             margin-left: 10%;
+         }
+         #Favorite {
+             width: 43rem;
+             margin-left: 0;
+         }
+       #Favorite2 {
+             width: 43rem;
+             margin-left: 0;
+         }
+    }
+@media (min-width: 800px) {
+    #whole {
+        margin-left: 30%;
+    }
+        #Second-half {
+            visibility:hidden;
+             margin-left: 0%;
+         }
+         
+         #Resolution {
+             margin-left: 13%;
+         }
+         #Favorite {
+             width: 45rem;
+             margin-left: 3%;
+         }
+    #Favorite2 {
+             width: 45rem;
+             margin-left: 3%;
+         }
+          #whole2 {
+        padding-left: 4%;
+    } 
+    #nav2 {
+        font-size: 20px;
+    }
+    #nav3 {
+        font-size: 20px;
+    }
+    #nav4 {
+        font-size: 20px;
+    }
+    #nav5 {
+        font-size: 20px;
+    }
+    #nav6 {
+        font-size: 20px;
+    }
+    #nav7 {
+        font-size: 20px;
+    }
+         
+    }
+   @media (min-width: 895px) { 
+       #whole {
+        margin-left: 3%;
+    }
+       #whole2 {
+        padding-left: 6%;
+    } 
+    #nav2 {
+        font-size: 20px;
+    }
+    #nav3 {
+        font-size: 20px;
+    }
+    #nav4 {
+        font-size: 20px;
+    }
+    #nav5 {
+        font-size: 20px;
+    }
+    #nav6 {
+        font-size: 20px;
+    }
+    #nav7 {
+        font-size: 20px;
+    }
+        #First {
+            margin-bottom:0px;
+        }
+        #Last {
+             margin-bottom:0px;
+        }
+        #CB {
+             margin-bottom:0px;
+        }
+        #Email2 {
+             margin-bottom:0px;
+        }
+        #Phone {
+             margin-bottom:0px;
+        }
+    
+    
+    #Pro-Pic {
+            float: left; 
+            overflow: auto;
+              margin-left: 0%;
+        }
+        #Email {
+            display: inline-block;
+            margin-bottom: 0px;
+        }
+    #whole {
+        margin-left: 30%;
+    }
+        
+        #Profile {
+            display:inline-block; 
+            float: right; 
+            margin-left: 0px; 
+            margin-top: 25px; 
+            color: black;
+        }
+        #Drivers {
+            display:block; 
+            margin-top: 25px;
+            margin-left: 0px; 
+        }
+        #Reviews {
+            display:block; 
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+       #Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+       
+    }
+@media (min-width: 900px) {
+    
+    #whole {
+        margin-left: 33%;
+    }
+        #whole2 {
+        padding-left: 9%;
+    } 
+    #nav2 {
+        font-size: 20px;
+    }
+    #nav3 {
+        font-size: 20px;
+    }
+    #nav4 {
+        font-size: 20px;
+    }
+    #nav5 {
+        font-size: 20px;
+    }
+    #nav6 {
+        font-size: 20px;
+    }
+    #nav7 {
+        font-size: 20px;
+    }
+    #Title {
+     margin-top: 10px;
+    }
+    #Second-half {
+             visibility: visible;
+             margin-left: 30%;
+         }
+         
+         #Resolution {
+             margin-left: 4%;
+         }
+         #Favorite {
+             width: 36rem;
+             margin-left: 0;
+         }
+    #Favorite2 {
+             width: 36rem;
+             margin-left: 0;
+         }
+           #Title2 {
+      margin-left: 0px;
+      
+             }
+     #Title3 {
+      margin-left: 0px;
+      
+             }
+         #Stars {
+             margin-left: 0px;
+         }
+          #person {
+            margin-left: 0px;
+        }
+        #SubTitle {
+             margin-left: 0px;
+         }
+         #Text {
+             margin-left: 0px; 
+         }
+        #Title {
+       display:inline-block;
+    
+             }
+    #Olive {
+       display:inline-block;
+    
+             }
+        #person {
+            float: left; overflow: auto;
+        }
+    #Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+@media (min-width: 970px) {
+    #whole {
+        margin-left: 33%;
+    }
+       #whole2 {
+        padding-left: 11%;
+    } 
+    #nav2 {
+        font-size: 20px;
+    }
+    #nav3 {
+        font-size: 20px;
+    }
+    #nav4 {
+        font-size: 20px;
+    }
+    #nav5 {
+        font-size: 20px;
+    }
+    #nav6 {
+        font-size: 20px;
+    }
+    #nav7 {
+        font-size: 20px;
+    }
+    #Second-half {
+             margin-left: 34%;
+         }
+         
+         #Resolution {
+             margin-left: 4%;
+         }
+         #Favorite {
+             width: 39rem;
+             margin-left: 0;
+         }
+     #Favorite2 {
+             width: 39rem;
+             margin-left: 0;
+         }
+    #Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+@media (min-width: 1000px) {
+     #whole {
+        margin-left: 33%;
+    }
+       #whole2 {
+        padding-left: 11%;
+    } 
+    #nav2 {
+        font-size: 20px;
+    }
+    #nav3 {
+        font-size: 20px;
+    }
+    #nav4 {
+        font-size: 20px;
+    }
+    #nav5 {
+        font-size: 20px;
+    }
+    #nav6 {
+        font-size: 20px;
+    }
+    #nav7 {
+        font-size: 20px;
+    }
+    #Second-half {
+             margin-left: 34%;
+         }
+         
+         #Resolution {
+             margin-left: 0%;
+         }
+         #Favorite {
+             width: 39rem;
+             margin-left: 0;
+         }
+    #Favorite2 {
+             width: 39rem;
+             margin-left: 0;
+         }
+    #Review {
+            width: 40rem; 
+            margin-left: 17%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review2 {
+            width: 40rem; 
+            margin-left: 17%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+     @media (min-width: 1027px) {
+         
+      #nav2 {
+        font-size: 25px;
+    }
+    #nav3 {
+        font-size: 25px;
+    }
+    #nav4 {
+        font-size: 25px;
+    }
+    #nav5 {
+        font-size: 25px;
+    }
+    #nav6 {
+        font-size: 25px;
+    }
+    #nav7 {
+        font-size: 25px;
+    }
+         #whole2 {
+        padding-left: 5%;
+    }
+         #Second-half {
+             margin-left: 37%;
+         }
+         
+         #Resolution {
+             margin-left: 2%;
+         }
+         #Favorite {
+             width: 42rem;
+         }
+         #Favorite2 {
+             width: 42rem;
+         }
+        
+        #Review {
+            width: 40rem; 
+            margin-left: 18%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review2 {
+            width: 40rem; 
+            margin-left: 18%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+    @media (min-width: 1100px) {
+        #whole {
+        margin-left: 35%;
+    }
+        #whole2 {
+        padding-left: 8%;
+    }
+        #Second-half {
+             margin-left: 40%;
+         }
+         
+         #Resolution {
+             margin-left: 4%;
+         }
+         #Favorite {
+             width: 45rem;
+         }
+         #Favorite2 {
+             width: 45rem;
+         }
+         #Review {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+       #Review2 {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    
+    }
+    @media (min-width: 1202px) { 
+    #whole {
+        margin-left: 35%;
+    }
+    #whole2 {
+        padding-left: 9%;
+    }
+         #Second-half {
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 4%;
+         }
+         #Favorite {
+             width: 49rem;
+         }
+         #Favorite2 {
+             width: 49rem;
+         }
+          #Review {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    } 
+     @media (min-width: 1224px) { 
+    #whole {
+        margin-left: 35%;
+    }
+    #whole2 {
+        padding-left: 16%;
+    }
+         #Second-half {
+             margin-left: 42%;
+         }
+         
+         #Resolution {
+             margin-left: 4%;
+         }
+         #Favorite {
+             width: 49rem;
+         }
+         #Favorite2 {
+             width: 49rem;
+         }
+          #Review {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review2 {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    } 
+
+@media (min-width: 1300px) {
+         #Second-half {
+             margin-left: 45%;
+         }
+         
+         #Resolution {
+             margin-left: 6%;
+         }
+         #Favorite {
+             width: 53rem;
+         }
+    #Favorite2 {
+             width: 53rem;
+         }
+   
+    }
+@media (min-width: 1400px) {
+       
+         #Second-half {
+             margin-left: 45%;
+         }
+         
+         #Resolution {
+             margin-left: 8%;
+         }
+         #Favorite {
+             width: 56rem;
+         }
+    #Favorite2 {
+             width: 56rem;
+         }
+    
+    }
+@media (min-width: 1500px) {
+   
+    
+    #Second-half {
+             margin-left: 45%;
+         }
+         
+         #Resolution {
+             margin-left: 10%;
+         }
+         #Favorite {
+             width: 60rem;
+         }
+    #Favorite2 {
+             width: 60rem;
+         }
+    }

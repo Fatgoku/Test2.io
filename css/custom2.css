@@ -1,0 +1,798 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+li {
+    color: #151515;
+}
+.nav-item.nav-link.active {
+    color: #055384;
+}
+
+a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+     
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+}
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+
+.card-img-overlay: hover {
+    opacity: 0.7;
+}
+small {
+    color: gainsboro;
+}
+.padding-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.margin-row {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+width: 100%;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.navbar-nav>li{
+border-right: 1px solid #100;
+border-color: lightgrey;
+}
+
+img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+    }  
+
+
+
+    
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+     @media (min-width: 208px) {
+     
+        #Write {
+             margin-left: 26%; 
+             color: #FFC312;
+        }
+        
+    }
+    
+     @media (min-width: 320px) {
+      
+        #Write {
+             margin-left: 9%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+      #Feed {
+             margin-right: 0%;
+             width: 20rem;
+         }
+    }
+    @media (min-width: 360px) {
+          #Yellow {
+            margin-left: 7%;
+        }
+        #Yellow2 {
+            margin-left: 7%;
+        }
+        #Buck {
+           margin-left: 7%;
+        }
+        #Buck2 {
+            margin-left: 7%;
+        }
+        #Local {
+           margin-left: 7%;
+        }
+        #Local2 {
+            margin-left: 7%;
+        }
+        #Add {
+           margin-left: 7%;
+        }
+         #Add2 {
+            margin-left: 7%;
+        }
+        #Info {
+        margin-left: 7%;
+    }
+        #Info2 {
+        margin-left: 7%;
+    }
+    #Edit {
+        margin-left: 7%;
+    }
+        #Edit2 {
+        margin-left: 7%;
+    }
+    #AmenityReview {
+       margin-left: 7%;
+    }
+        #AmenityReview2 {
+       margin-left: 7%;
+    }
+        #Write {
+             margin-left: 15%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+      #Feed {
+             margin-right: 0%;
+             width: 23rem;
+         }
+        #picture {
+            float: none;
+            margin-left: 8%;
+        }
+        #picture2 {
+            float: none;
+            margin-left: 8%;
+        }
+    }
+ @media (min-width: 375px) {
+#Yellow {
+            margin-left: 7%;
+        }
+        #Yellow2 {
+            margin-left: 7%;
+        }
+        #Buck {
+           margin-left: 7%;
+        }
+        #Buck2 {
+            margin-left: 7%;
+        }
+        #Local {
+           margin-left: 7%;
+        }
+        #Local2 {
+            margin-left: 7%;
+        }
+        #Add {
+           margin-left: 7%;
+        }
+         #Add2 {
+            margin-left: 7%;
+        }
+        #Info {
+        margin-left: 7%;
+    }
+        #Info2 {
+        margin-left: 7%;
+    }
+    #Edit {
+        margin-left: 7%;
+    }
+        #Edit2 {
+        margin-left: 7%;
+    }
+    #AmenityReview {
+       margin-left: 7%;
+    }
+        #AmenityReview2 {
+       margin-left: 7%;
+    }
+     #Write {
+             margin-left: 16%; 
+             color: #FFC312;
+        }
+}
+     @media (min-width: 411px) {
+      #picture {
+            float: none;
+            margin-left: 14%;
+        } 
+         #picture2 {
+            float: none;
+            margin-left: 14%;
+        } 
+        #Write {
+             margin-left: 19%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Feed {
+             margin-right: 0%;
+             width: 24rem;
+         }
+         #Yellow {
+            margin-left: 13%;
+        }
+        #Yellow2 {
+            margin-left: 13%;
+        }
+        #Buck {
+            margin-left: 13%;
+        }
+        #Buck2 {
+            margin-left: 13%;
+        }
+        #Local {
+            margin-left: 13%;
+        }
+        #Local2 {
+            margin-left: 13%;
+        }
+        #Add {
+            margin-left: 13%;
+        }
+         #Add2 {
+            margin-left: 13%;
+        }
+        #Info {
+        margin-left: 13%;
+    }
+        #Info2 {
+        margin-left: 13%;
+    }
+    #Edit {
+        margin-left: 13%;
+    }
+        #Edit2 {
+        margin-left: 13%;
+    }
+    #AmenityReview {
+        margin-left: 13%;
+    }
+        #AmenityReview2 {
+        margin-left: 13%;
+    }
+#picture {
+            float: none;
+            margin-left: 14%;
+        } 
+        #picture2 {
+            float: none;
+            margin-left: 14%;
+        } 
+    }
+    @media (min-width: 430px) {
+       #Yellow {
+            margin-left: 0%;
+        }
+        #Yellow2 {
+            margin-left: 0%;
+        }
+        #Buck {
+            margin-left: 0%;
+        }
+        #Buck2 {
+            margin-left: 0%;
+        }
+        #Local {
+            margin-left: 0%;
+        }
+        #Local2 {
+            margin-left: 0%;
+        }
+        #Add {
+            margin-left: 0%;
+        }
+         #Add2 {
+            margin-left: 0%;
+        }
+        #Info {
+        margin-left: 0%;
+    }
+        #Info2 {
+        margin-left: 0%;
+    }
+    #Edit {
+        margin-left: 0%;
+    }
+        #Edit2 {
+        margin-left: 0%;
+    }
+    #AmenityReview {
+        margin-left: 0%;
+    }
+        #AmenityReview2 {
+        margin-left: 0%;
+    }
+#Review {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review2 {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #picture {
+            float: right;
+    }
+    #picture2 {
+            float: right;
+    }
+        #Write {
+             margin-left: 28%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+       #Feed {
+             margin-right: 0%;
+             width: 28rem;
+         }
+         #Review {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review2 {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        
+    }
+    @media (min-width: 540px) {
+         #picture {
+            float: right;
+    }
+       #picture2 {
+            float: right;
+    } 
+        #Review {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Write {
+             margin-left: 30%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+       #Feed {
+             margin-right: 0%;
+             width: 32rem;
+         }
+    }
+    @media (min-width: 640px) {
+        
+        #Write {
+             margin-left: 30%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Feed {
+             margin-right: 0%;
+             width: 33rem;
+         }
+        #Review {
+            width: 33rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 33rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+    @media (min-width: 768px) {
+        #Review {
+            width: 40rem; 
+            margin-left: 4%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 4%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Write {
+             margin-left: 34%; 
+             color: #FFC312;
+        }
+       #Feed {
+             margin-left: 3%;
+            width: 40rem;
+         }
+    }
+    @media (min-width: 770px) {
+       
+        #Write {
+             margin-left: 35%; 
+             color: #FFC312;
+        }
+        #Feed {
+             margin-left: 5%;
+         }
+    }
+     @media (min-width: 800px) {
+       
+        #Write {
+             margin-left: 35%; 
+             color: #FFC312;
+        }
+       #Feed {
+             margin-left: 4%;
+         }
+    }
+  @media (min-width: 895px) {
+#Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+}
+    @media (min-width: 900px) {
+        #Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Write {
+             margin-left: 36%; 
+             color: #FFC312;
+        }
+      #Feed {
+             margin-left: 5%;
+         }
+    }
+    @media (min-width: 970px) {
+       #Review {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 40rem; 
+            margin-left: 5%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Write {
+             margin-left: 35%; 
+             color: #FFC312;
+        }
+      #Feed {
+             margin-left: 16%;
+         }
+    }
+@media (min-width: 991px) {
+      .navbar-nav>li:last-child{
+   border: none;
+    }
+    #Write {
+             margin-left: 39%; 
+             color: #FFC312;
+        }
+      #Review {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review2 {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+      
+}
+@media (min-width: 1000px) {
+     
+    #Review {
+            width: 40rem; 
+            margin-left: 17%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review2 {
+            width: 40rem; 
+            margin-left: 17%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    
+    }
+    
+    @media (min-width: 1027px) {
+       
+        #Write {
+             margin-left: 39%; 
+             color: #FFC312;
+        }
+        #Feed {
+             margin-left: 16%;
+         }
+        #Review {
+            width: 40rem; 
+            margin-left: 18%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review2 {
+            width: 40rem; 
+            margin-left: 18%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+    @media (min-width: 1100px) {
+      
+        #Write {
+             margin-left: 39%; 
+             color: #FFC312;
+        }
+         #Feed {
+             margin-left: 18%;
+         }
+         #Review {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        
+        #Review2 {
+            width: 40rem; 
+            margin-left: 16%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+   
+     @media (min-width: 1202px) {
+       #Review {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+          #Review2 {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Write {
+             margin-left: 41%;
+             
+             color: #FFC312;
+        }
+         #Feed {
+             margin-left: 23%;
+         }
+    }
+@media (min-width: 1224px) { 
+          #Review {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review2 {
+            width: 40rem; 
+            margin-left: 21%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    } 
+     @media (min-width: 1300px) {
+        
+        #Write {
+             margin-left: 40%;
+             margin-bottom: 10px;
+             color: #FFC312;
+        }
+         #Feed {
+             margin-left: 21%;
+         }
+    }

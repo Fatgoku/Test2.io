@@ -1,0 +1,1523 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+li {
+    color: #151515;
+}
+.nav-item.nav-link.active {
+    color: #055384;
+}
+a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+ a:hover {
+        color: #FFC312;
+         text-decoration: none;
+    }
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+table {
+     font-family: 'Open Sans', sans-serif;
+}
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+.card-img-overlay: hover {
+    opacity: 0.7;
+}
+small {
+    color: gainsboro;
+}
+.padding-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+width: 100%;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.navbar-nav>li{
+border-right: 1px solid #100;
+border-color: lightgrey;
+}
+.navbar-nav>li:last-child{
+   border: none;
+}
+@media (min-width: 208px) {
+      
+    }
+    
+     @media (min-width: 320px) {
+         #Yellow2 {
+            margin-left: 1%;
+        }
+#Buck2 {
+            margin-left: 1%;
+        }
+#Local2 {
+            margin-left: 1%;
+        }
+#Add2 {
+            margin-left: 1%;
+        }
+#Info2 {
+        margin-left: 1%;
+    }
+
+#AmenityReview2 {
+       margin-left: 1%;
+    }
+         #location {
+             width: 14rem;
+         }
+         #location2 {
+             width: 14rem;
+         }
+         #Yellow3 {
+            margin-left: 1%;
+        }
+#Buck3 {
+            margin-left: 1%;
+        }
+#Local3 {
+            margin-left: 1%;
+        }
+#Add3 {
+            margin-left: 1%;
+        }
+#Info3 {
+        margin-left: 1%;
+    }
+
+#AmenityReview3 {
+       margin-left: 1%;
+    }
+#location3 {
+             width: 14rem;
+         }
+          input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:71%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+       #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:2%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        #FullCards {
+            width: 30rem;
+        }
+        #Card1 {
+            width:150px;
+        }
+        #Card2 {
+            width:150px;
+            margin-left: 0px;
+        }
+        #Card3 {
+            width:150px;
+            margin-left: 0px;
+        }
+    #Review {
+          width: 26rem; margin-left:0px;margin-bottom: 0px; margin-top: 10px;
+    }
+         #Review2 {
+            width: 18rem; 
+            margin-left: 3%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review3 {
+            width: 18rem; 
+            margin-left: 3%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Person {
+            padding-bottom: 0px; 
+        }
+          #Title {
+             margin-left: 11%;
+         }
+         #Title2 {
+             margin-left: 24%;
+         }
+         #TR1 {
+              margin-left: 22%;
+         }
+         #TR2 {
+              margin-left: 24%;
+         }
+         #TR3 {
+              margin-left: 24%;
+         }
+         #TR4 {
+              margin-left: 9%;
+         } 
+         #MD1 {
+              margin-left: 21%;
+         }
+         #MD2 {
+              margin-left: 24%;
+         }
+         #MD3 {
+              margin-left: 24%;
+         }
+         #MD4 {
+              margin-left: 9%;
+         }
+         #FullCards {
+            margin-left: 0px;
+            width: 30rem;
+        }
+        #Card1 {
+            margin-left: 30px;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 30px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 30px;
+            height:15rem;
+        }
+          #table {
+         margin-left: 0px;
+     }
+     #Ress {
+         margin-left: 0px;
+     }
+     #Food {
+         margin-left: 120px;
+     }
+          #Triple {
+         margin-left: 3px;
+     }
+         #Triple2 {
+         margin-left: 3px;
+     }
+         #Triple3 {
+         margin-left: 3px;
+     }
+    }
+
+@media (min-width: 360px) {
+    #Triple {
+         margin-left: 28px;
+     }
+         #Triple2 {
+         margin-left: 0px;
+     }
+         #Triple3 {
+         margin-left: 0px;
+     }
+    #table {
+         margin-left: 38px;
+     }
+     #Ress {
+         margin-left: 38px;
+     }
+     #Food {
+         margin-left: 130px;
+     }
+    #Yellow2 {
+            margin-left: 6%;
+        }
+#Buck2 {
+            margin-left: 6%;
+        }
+#Local2 {
+            margin-left: 6%;
+        }
+#Add2 {
+            margin-left: 6%;
+        }
+#Info2 {
+        margin-left: 6%;
+    }
+
+#AmenityReview2 {
+       margin-left: 6%;
+    }
+    #Review2 {
+            width: 330px; 
+            margin-left: 2%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Yellow3 {
+            margin-left: 6%;
+        }
+#Buck3 {
+            margin-left: 6%;
+        }
+#Local3 {
+            margin-left: 6%;
+        }
+#Add3 {
+            margin-left: 6%;
+        }
+#Info3 {
+        margin-left: 6%;
+    }
+
+#AmenityReview3 {
+       margin-left: 6%;
+    }
+    #Review3 {
+            width: 330px; 
+            margin-left: 2%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Title {
+             margin-left: 0%;
+         }
+         #Title2 {
+             margin-left: 0%;
+         }
+         #TR1 {
+              margin-left: 0%;
+         }
+         #TR2 {
+              margin-left: 0%;
+         }
+         #TR3 {
+              margin-left: 0%;
+         }
+         #TR4 {
+              margin-left: 0%;
+         } 
+         #MD1 {
+              margin-left:0%;
+         }
+         #MD2 {
+              margin-left: 0%;
+         }
+         #MD3 {
+              margin-left: 0%;
+         }
+         #MD4 {
+              margin-left: 0%;
+         }
+    #location {
+             width: 20rem;
+         }
+         #location2 {
+             width: 20rem;
+         }
+    #picture2 {
+            float: none;
+            margin-left: 1%;
+        }
+    
+     input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:73%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+      #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:2%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+     #picture2 {
+            float: none;
+            margin-left: 7%;
+        }
+    #picture3 {
+            float: none;
+            margin-left: 7%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        #FullCards {
+            margin-left: 0px;
+            width: 30rem;
+        }
+        #Card1 {
+            margin-left: 50px;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 50px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 50px;
+            height:15rem;
+        }
+    #Review {
+          width: 23rem; margin-left:0px;margin-bottom: 0px; margin-top: 10px;
+         
+    }
+    #Person {
+            padding-bottom: 0px;
+        }
+    }
+@media (min-width: 375px) {
+    #Triple {
+         margin-left: 32px;
+     }
+         #Triple2 {
+         margin-left: 0px;
+     }
+         #Triple3 {
+         margin-left: 0px;
+     }
+    #picture2 {
+            float: none;
+            margin-left: 9%;
+        }
+    #Yellow2 {
+            margin-left: 8%;
+        }
+#Buck2 {
+            margin-left: 8%;
+        }
+#Local2 {
+            margin-left: 8%;
+        }
+#Add2 {
+            margin-left: 8%;
+        }
+#Info2 {
+        margin-left: 8%;
+    }
+#AmenityReview2 {
+       margin-left: 8%;
+    }
+    #picture3 {
+            float: none;
+            margin-left: 9%;
+        }
+    #Yellow3 {
+            margin-left: 8%;
+        }
+#Buck3 {
+            margin-left: 8%;
+        }
+#Local3 {
+            margin-left: 8%;
+        }
+#Add3 {
+            margin-left: 8%;
+        }
+#Info3 {
+        margin-left: 8%;
+    }
+#AmenityReview3 {
+       margin-left: 8%;
+    }
+input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:73%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    #Review2 {
+            width: 345px; 
+            margin-left: 2%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #Review3 {
+            width: 345px; 
+            margin-left: 2%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #FullCards {
+            margin-left: 0px;
+            width: 30rem;
+        }
+        #Card1 {
+            margin-left: 60px;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 60px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 60px;
+            height:15rem;
+        }
+     #table {
+         margin-left: 40px;
+     }
+     #Ress {
+         margin-left: 40px;
+     }
+     #Food {
+         margin-left: 140px;
+     }
+}
+     @media (min-width: 411px) {
+        #Triple {
+         margin-left: 44px;
+     }
+         #Triple2 {
+         margin-left: 0px;
+     }
+         #Triple3 {
+         margin-left: 0px;
+     }
+         #Yellow2 {
+            margin-left: 13%;
+        }
+#Buck2 {
+            margin-left: 13%;
+        }
+#Local2 {
+            margin-left: 13%;
+        }
+#Add2 {
+            margin-left: 13%;
+        }
+#Info2 {
+        margin-left: 13%;
+    }
+
+#AmenityReview2 {
+        margin-left: 13%;
+    }
+        #picture2 {
+            float: none;
+            margin-left: 14%;
+        } 
+         #Yellow3 {
+            margin-left: 13%;
+        }
+#Buck3 {
+            margin-left: 13%;
+        }
+#Local3 {
+            margin-left: 13%;
+        }
+#Add3 {
+            margin-left: 13%;
+        }
+#Info3 {
+        margin-left: 13%;
+    }
+
+#AmenityReview3 {
+        margin-left: 13%;
+    }
+        #picture2 {
+            float: none;
+            margin-left: 14%;
+        }
+         #picture3 {
+            float: none;
+            margin-left: 14%;
+        } 
+         input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:78%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+     #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:2%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        #FullCards {
+            margin-left: 0px;
+            width: 30rem;
+        }
+        #Card1 {
+            margin-left: 80px;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 80px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 80px;
+            height:15rem;
+        }
+         #Review {
+             width: 23rem; margin-left:0px;margin-bottom: 0px; margin-top: 10px;
+         }
+         #Person {
+            padding-bottom: 0px;
+        }
+         #location {
+             width: 20rem;
+         }
+         #location2 {
+             width: 20rem;
+         }
+         #Review2 {
+            width: 24rem; 
+            margin-left: 5px;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review3 {
+            width: 24rem; 
+            margin-left: 5px;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+@media (min-width: 430px) {
+    #Yellow2 {
+            margin-left: 0%;
+        }
+#Buck2 {
+            margin-left: 0%;
+        }
+#Local2 {
+            margin-left: 0%;
+        }
+#Add2 {
+            margin-left: 0%;
+        }
+#Info2 {
+        margin-left: 0%;
+    }
+#AmenityReview2 {
+        margin-left: 0%;
+    }
+     #Review2 {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #picture2 {
+            float: right;
+    } 
+    
+    #Yellow3 {
+            margin-left: 0%;
+        }
+#Buck3 {
+            margin-left: 0%;
+        }
+#Local3 {
+            margin-left: 0%;
+        }
+#Add3 {
+            margin-left: 0%;
+        }
+#Info3 {
+        margin-left: 0%;
+    }
+#AmenityReview3 {
+        margin-left: 0%;
+    }
+     #Review3 {
+            width: 29rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    #picture3 {
+            float: right;
+    } 
+input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:82%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    #table {
+         margin-left: 120px;
+     }
+     #Ress {
+         margin-left: 120px;
+     }
+     #Food {
+         margin-left: 190px;
+     }
+    #Card1 {
+            margin-left: 20%;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 20%;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 20%;
+            height:15rem;
+        }
+}
+    @media (min-width: 500px) {
+        #table {
+         margin-left: 100px;
+     }
+     #Ress {
+         margin-left: 100px;
+     }
+     #Food {
+         margin-left: 200px;
+     }
+        #Review {
+            width: 30rem; margin-left:0px;margin-bottom: 0px; margin-top: 10px;
+        }
+        #Person {
+            padding-bottom: 0px; float: right;
+        }
+     #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:2%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        #FullCards {
+            margin-left: 0px;
+            width: 30rem;
+        }
+      #Card1 {
+            margin-left: 28%;
+            width:250px;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 28%;
+            height:15rem;
+            margin-bottom: 5px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 28%;
+            height:15rem;
+        }
+        #Triple {
+         margin-left: 88px;
+     }
+         #Triple2 {
+         margin-left: 0px;
+     }
+         #Triple3 {
+         margin-left: 0px;
+     }
+    }
+ @media (min-width: 540px) {
+     #table {
+         margin-left: 0px;
+     }
+     #Ress {
+         margin-left: 0px;
+     }
+     #Food {
+         margin-left: 0px;
+     }
+  #Review2 {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     #Review3 {
+            width: 32rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+     input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:86%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+#Card1 {
+            width:250px;
+            margin-left: 29%;
+            height:15rem;
+            margin-bottom: 7px;
+        }
+        #Card2 {
+            width:250px;
+            margin-left: 29%;
+            height:15rem;
+            margin-bottom: 7px;
+        }
+        #Card3 {
+            width:250px;
+            margin-left: 29%;
+            height:15rem;
+        }
+}
+    @media (min-width: 600px) {
+        #Card1 {
+            width:150px;
+            margin-left: 0px;
+            height:13rem;
+            margin-bottom: 0px;
+        }
+        #Card2 {
+            width:150px;
+            margin-left: 0px;
+            height:13rem;
+            margin-bottom: 0px;
+        }
+        #Card3 {
+            width:150px;
+            margin-left: 0px;
+            height:13rem;
+        }
+        #Triple {
+         margin-left: 0px;
+     }
+         #Triple2 {
+         margin-left: 0px;
+     }
+         #Triple3 {
+         margin-left: 0px;
+     }
+      #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:2%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        #FullCards {
+            width: 37rem;
+        }
+        #Card1 {
+            
+        }
+        #Card2 {
+            margin-left: 0px;
+        }
+        #Card3 {
+            margin-left: 0px;
+        }
+    }
+    @media (min-width: 640px) {
+     #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #FullCards {
+            width: 40rem;
+        }
+        #LeftSide {
+        margin-left:6%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:8%;
+    }
+        
+    }
+@media (min-width: 670px) {
+     input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:88%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+        
+    }
+    @media (min-width: 768px) {
+     #Review2 {
+            width: 40rem; 
+            
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review3 {
+            width: 40rem; 
+            
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 50%; max-width:;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 0px; width: 50%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 0px; width: 50%; max-width: 100%;
+         }
+        #LeftSide {
+        margin-left:25%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:20%;
+    }
+        input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:90%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+    @media (min-width: 770px) {
+   
+    }
+     @media (min-width: 800px) {
+         #Picture1 {
+             margin-top: 0px; display:inline; float: left; width: 24%; max-width: 100%;
+         }
+         #Picture2 {
+             margin-top: 0px; display:inline; float: left; margin-left: 5px; width: 25%; max-width: 100%;
+         }
+         #Picture3 {
+             margin-top: 0px; display:inline; float: left;  margin-left: 6px; width: 25%; max-width: 100%;
+         }
+         #Picture4 {
+             margin-top: 0px; display:inline; float: left; margin-left: 5px; width: 24%; max-width: 100%;
+         }
+    #LeftSide {
+        margin-left:33%;
+    }
+        #SH {
+            margin-left: 3%;
+        }
+    #RightSide {
+        margin-left:26%;
+    }
+         
+         
+    }
+
+    @media (min-width: 900px) {
+      #LeftSide {
+        margin-left:38%;
+    }
+        #SH {
+            margin-left: 6%;
+        }
+    #RightSide {
+        margin-left:26%;
+    }
+         input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:91%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+     @media (min-width: 970px) {
+        #LeftSide {
+        margin-left:40%;
+    }
+        #SH {
+            margin-left: 8%;
+        }
+    #RightSide {
+        margin-left:26%;
+    }
+         input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:65%;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}         
+    }
+@media (min-width: 989px) {
+   a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+} 
+}
+@media (min-width: 991px) {
+      .navbar-nav>li:last-child{
+   border: none;
+}
+    @media (min-width: 1024px) {
+         #LeftSide {
+        margin-left:40%;
+    }
+        #SH {
+            margin-left: 7%;
+        }
+    #RightSide {
+        margin-left:26%;
+    }
+         a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+        input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:200px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+    @media (min-width: 1027px) {
+      #Review2 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+         #Review3 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:200px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    
+        
+    }
+    @media (min-width: 1100px) {
+        a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+        #Review2 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review3 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #LeftSide {
+        margin-left:2%;
+    }
+    #RightSide {
+        margin-left:15%;
+    }
+        #SH {
+            margin-left: 0;
+        }
+          input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:250px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+@media (min-width: 1124px) {
+ border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:300px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+}
+    @media (min-width: 1200px) {
+        #LeftSide {
+        margin-left:9%;
+    }
+    #RightSide {
+        margin-left:18%;
+    }
+        #Review2 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+        #Review3 {
+            width: 40rem; 
+            margin-left: 0%;
+            margin-bottom: 10px; 
+            margin-top: 10px;
+        }
+    }
+     @media (min-width: 1300px) {
+        a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+         #LeftSide {
+        margin-left:17%;
+    }
+    #RightSide {
+        margin-left:23%;
+    }
+         input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:400px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+@media (min-width: 1400px) {
+       #LeftSide {
+        margin-left:16%;
+    }
+    #RightSide {
+        margin-left:22%;
+    }
+    input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:500px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }
+@media (min-width: 1500px) {
+    #LeftSide {
+        margin-left:20%;
+    }
+    #RightSide {
+        margin-left:26%;
+    }
+        
+ input[type=text] {
+  
+   border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom: 0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:48px;
+    width:600px;
+        
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+ 
+}
+    }

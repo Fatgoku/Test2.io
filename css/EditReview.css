@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+li {
+    color: #151515;
+}
+.nav-item.nav-link.active {
+    color: #055384;
+}
+a {
+    color: black;
+    transition: .7s ease;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+}
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+
+.card-img-overlay: hover {
+    opacity: 0.7;
+}
+small {
+    color: gainsboro;
+}
+.padding-0{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.margin-row {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+width: 100%;
+}
+
+
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.navbar-nav>li{
+border-right: 1px solid #100;
+border-color: lightgrey;
+}
+.navbar-nav>li:last-child{
+   border: none;
+}
+   @media (min-width: 208px) {
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 145px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+             margin-left: 26%; 
+             color: #FFC312;
+        }
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+    
+     @media (min-width: 320px) {
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 122px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+            font-size: 41px; 
+            margin-left: 11%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+        
+    
+        width: 97%;
+    }
+         #fname {
+             width: 200px;
+         }
+                  #fname2 {
+             width: 200px;
+         }
+         #sub {
+            font-size: 19px;
+        }
+    }
+ @media (min-width: 360px) {
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 122px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+            font-size: 41px; 
+            margin-left: 15%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+        
+        width: 97%;
+    }
+    }
+ @media (min-width: 375px) {
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 122px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+            font-size: 45px; 
+            margin-left: 14%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+        
+        width: 97%;
+    }
+    }
+     @media (min-width: 411px) {
+        #fname {
+             width: 200px;
+         }
+                  #fname2 {
+             width: 200px;
+         }
+         #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 185px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+             margin-left: 17%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+        
+        width: 97%;
+    }
+          #sub {
+            font-size: 21px;
+        }
+    }
+    @media (min-width: 430px) {
+        #sub {
+            font-size: 23px;
+        }
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 274px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+             margin-left: 21%; 
+             color: #FFC312;
+             font-size: 50px;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+         margin-left:auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    }
+    @media (min-width: 540px) {
+        #Review {
+        margin-top: 5px; 
+        padding:15px 55px 15px 55px; 
+        margin-left: 313px; 
+        background-color: #FFC312; 
+        color:black;
+            }
+        #Write {
+             margin-left: 24%; 
+             color: #FFC312;
+        }
+         #Jumbo {
+             width: 100%;
+         }
+         #Bar {
+             width: 100%;
+         }
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+    @media (min-width: 640px) {
+         #Write {
+             margin-left: 23%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+    @media (min-width: 768px) {
+         #fname {
+             width: 220px;
+         }
+                  #fname2 {
+             width: 220px;
+         }
+        #Write {
+             margin-left: 31%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 60%;
+    }
+    }
+    @media (min-width: 770px) {
+       
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+     @media (min-width: 800px) {
+       #Write {
+             margin-left: 31%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+    @media (min-width: 900px) {
+        #Write {
+             margin-left: 31%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+     @media (min-width: 950px) {
+        #Write {
+             margin-left: 32%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+@media (min-width: 1000px) {
+        #Write {
+             margin-left: 35%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        
+        width: 100%;
+    }
+    }
+    @media (min-width: 1024px) {
+       #Write {
+             margin-left: 34%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    }
+    @media (min-width: 1027px) {
+      #Write {
+             margin-left: 36%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    }
+    @media (min-width: 1100px) {
+        #Write {
+             margin-left: 38%; 
+             color: #FFC312;
+        } 
+        #Everything {
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    }
+    @media (min-width: 1124px) {
+        #Everything {
+        margin-left:auto;
+        margin-right: auto;
+        width: 90%;
+    }
+        
+    }
+     @media (min-width: 1300px) {
+        #Everything {
+        margin-left:auto;
+        margin-right: auto;
+        width: 90%;
+    }
+       #Write {
+             margin-left: 39%; 
+             color: #FFC312;
+        }  
+        
+    }
